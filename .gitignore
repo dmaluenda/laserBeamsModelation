@@ -1,0 +1,26 @@
+
+
+# MacOsX files
+.DS_Store
+Icon?
+
+# Matlab autosave files
+*.asv
+
+# Produced images for running time
+/Holograms/**
+/Holograms_AmplitudeOnly/**
+/Images/**
+*.png
+
+# Needed images
+!/SupportFiles/GrayLevel/**
+!/SupportFiles/SemiGrayLevel/**
+!/SupportFiles/SemiGrayLevelV/**
+!/SupportFiles/TestPatterns/**
+
+# Third party software
+/Stage/SoftWare
+
+# Old files
+/SupportFiles/complexValues_OLD/**
