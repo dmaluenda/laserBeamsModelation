@@ -12,11 +12,17 @@ Icon?
 /Holograms_AmplitudeOnly/**
 /Images/**
 *.png
+*.PNG
+*.eps
+*.jpeg
+*.JPEG
+*.jpg
+*.JPG
 
 # Needed images
 !/SupportFiles/GrayLevel/**
-!/SupportFiles/SemiGrayLevel/**
-!/SupportFiles/SemiGrayLevelV/**
+!/SupportFiles/SemiGrayLevels/**
+!/SupportFiles/SemiGrayLevelsV/**
 !/SupportFiles/TestPatterns/**
 
 # Calibration files

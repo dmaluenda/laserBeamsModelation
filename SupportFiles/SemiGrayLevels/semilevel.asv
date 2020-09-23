@@ -1,0 +1,7 @@
+im=zeros(1024,768)';
+for i=1:256
+    im(1024*768/2)=i-1;
+    %im=im';
+    imwrite(im/255,[num2str(i) 'semilevel.png'],'PNG');
+    i
+end
