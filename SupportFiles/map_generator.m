@@ -2,7 +2,7 @@
 % phi2(gl_max+1:256)=phi2(gl_max);%gl_max is the gray level whose phase is
 % the maximum one
 
-SLM=2; %SLM's label that is caracterazing 
+SLM=1; %SLM's label that is caracterazing 
 
 
 for j=SLM
@@ -33,7 +33,7 @@ for j=SLM
         
     curve=[(1:GLmax).' T_def(1:GLmax) phi_def(1:GLmax)];
 
-    fid = fopen(['valors_p' num2str(j) '.txt'],'wt');
+    fid = fopen(['valors_' label '_p' num2str(j) '.txt'],'wt');
     fprintf(fid,'%3.0f %6.4f% 6.4f\n',curve');
     fclose(fid);
     figure
@@ -51,7 +51,7 @@ for j=SLM
     figure
     plot(data(1,:),data(2,:))
     title (['SLM ' num2str(j)])
-    fid = fopen(['curve_SLM' num2str(j) '.txt'],'wt');
+    fid = fopen(['curve_' label '_SLM' num2str(j) '.txt'],'wt');
     fprintf(fid,'%6.4f  %3.0f\n',data);
     fclose(fid);
 end

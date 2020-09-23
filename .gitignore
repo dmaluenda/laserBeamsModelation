@@ -19,8 +19,20 @@ Icon?
 !/SupportFiles/SemiGrayLevelV/**
 !/SupportFiles/TestPatterns/**
 
+# Calibration files
+*.txt
+
+# Needed text files
+!+scripts/design_kinds*.txt
+!Designs/design_kinds.txt
+!SupportFiles/1_calibration_README_LEEME_INSTRUCTIONS.txt
+
+
 # Third party software
 /Stage/SoftWare
 
 # Old files
 /SupportFiles/complexValues_OLD/**
+
+# MacOS-X links (defined by me)
+*.link
